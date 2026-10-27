@@ -30,5 +30,11 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
 
     //this function increases spell power by 1 and reduces mana by 5
     //as long as we have a minimum mana of 5
-    fun train(){}
+    fun train(){
+        //only increases if mana>=5, else does nothing
+        if(mana >=5){
+            mana-=5
+            spellPower++
+        }
+    }
 }
