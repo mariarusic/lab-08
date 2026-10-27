@@ -2,6 +2,8 @@ package com.example.lab_8
 
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
     //this is a wizard class!
+
+    //this function casts a spell
     fun castSpell(spell: String): Int {
         when (spell) {
             "Explosion" -> {
@@ -21,5 +23,8 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
             }
         }
     }
-    fun restoreMana(amount: Int) { }
+    //this function restores mana
+    fun restoreMana(amount: Int) {
+        mana = minOf(100, mana + amount)
+    }
 }
