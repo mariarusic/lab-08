@@ -2,7 +2,7 @@
 
 ## Student Details
 - **Full Name:** Misko Rusic
-- **CCID:** Rusic
+- **CCID:** rusic
 
 ## References and Resources
 List any resources used here, or simply put `N/A` if not applicable.
